@@ -1,7 +1,7 @@
 # GYRO - Find ATM's near me. 
 *Quack*
 
-### A  Install the server-side
+### A.  Install the server-side
 
 1. Pull it 
 
@@ -16,7 +16,7 @@
 
 `docker-compose up` - Docker takes the lead and makes everything go **smoothly* 
 
-### B Install the client-side 
+### B. Install the client-side 
 
 
 `npm install` - installs the dependencies
