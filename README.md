@@ -1,7 +1,7 @@
 # GYRO - Find ATM's near me. 
 *Quack*
 
-### Install the project 
+### A  Install the server-side
 
 1. Pull it 
 
@@ -16,6 +16,17 @@
 
 `docker-compose up` - Docker takes the lead and makes everything go **smoothly* 
 
+### B Install the client-side 
+
+
+`npm install` - installs the dependencies
+
+`npm run build:client` - builds client-side using webpack 
+
+`npm run work:server` - runs client-side (still webpack)
+
+
+#### Post-scriptum
 
 **Note : The Docker command won't close it's output, but it is normal. Run : **
 
