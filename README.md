@@ -5,7 +5,7 @@
 
 1. Pull it 
 
-2. Verify that nothing is running on port 80 : 
+2. Verify that nothing is running on port 80 (apache, other docker containers) *then*
 
 
 `npm install` - installs the dependencies
