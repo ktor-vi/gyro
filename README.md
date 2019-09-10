@@ -8,11 +8,13 @@
 2. Verify that nothing is running on port 80 : 
 
 
-`npm install`
-`npm run build`
-`npm run work:server`
+`npm install` - installs the dependencies
 
-`docker-compose up`
+`npm run build` - builds the server 
+
+`npm run work:server` - prepares the server
+
+`docker-compose up` - Docker takes the lead and makes everything go **smoothly* 
 
 
 **Note : The Docker command won't close it's output, but it is normal. Run : **
@@ -20,6 +22,10 @@
 `docker ps`
 
 And you should see *TWO* Containers : Node and MongoDB
+
+**Note : Kill the container when you're finished**
+
+`docker kill [containerId]`
 
 ### And we're off 
 *Quack* 
