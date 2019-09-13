@@ -6,7 +6,6 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "src/scripts/buildDeploy.sh",
     "rebuild": "src/scripts/rebuild.sh",
     "rebuildHard": "src/scripts/rebuildHard.sh",
     "start": "src/scripts/startDeploy.sh",
