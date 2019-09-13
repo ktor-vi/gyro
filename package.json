@@ -6,15 +6,17 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "build": "src/scripts/buildDeploy.sh",
+    "rebuild": "src/scripts/rebuild.sh",
+    "rebuildHard": "src/scripts/rebuildHard.sh",
+    "start": "src/scripts/startDeploy.sh",
     "mongo:import:banks": "docker-compose exec mongo mongoimport --authenticationDatabase admin -u dev -p dev -c banks -d trouvkash --file /usr/dump/banks.json --jsonArray",
     "mongo:import:terminals": "docker-compose exec mongo mongoimport --authenticationDatabase admin -u dev -p dev -c terminals -d trouvkash --file /usr/dump/terminals.json --jsonArray",
     "lint": "npx eslint --fix --cache --ignore-pattern 'docs/*' src",
     "build:server": "npx babel src/server -s --out-dir bin/server",
     "work:server": "npx babel src/server -s --watch --verbose --out-dir bin/server",
     "build:client": "npx webpack --progress --profile --colors",
-    "start": "src/scripts/startDeploy.sh", 
     "work:client": "npx webpack --env=dev --progress",
-    "build": "src/scripts/buildDeploy.sh"
   },
   "lint-staged": {
     "*.js": [
