@@ -1,2 +1,2 @@
-npm run work:client
+npm run build:client
 node .
