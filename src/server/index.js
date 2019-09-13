@@ -20,6 +20,7 @@ app.get("/hello", (req, res) => {
     res.send("Hello, World!");
 });
 app.get("/works", (req, res) => {
+    console.log(`ℹ️  (${req.method.toUpperCase()}) ${req.url}`);
     res.send(`Shit bro it works`);
 });
 app.listen(APP_PORT, () =>
