@@ -9,6 +9,7 @@
 import express from "express";
 import path from "path";
 
+require("./app.js");
 const {APP_PORT} = process.env;
 
 const app = express();
