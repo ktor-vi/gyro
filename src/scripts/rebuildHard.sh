@@ -1,3 +1,3 @@
 npm ci
-npm run build
-npm run build:client
+npm run rebuild
+# npm run build:client
