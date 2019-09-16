@@ -20,7 +20,7 @@ module.exports = env => {
             BUILD_TIME: Date.now(),
         }),
         new HtmlWebpackPlugin({
-            template: resolve(__dirname, "./src/index.html"),
+            template: resolve(__dirname, "src/index.html"),
             path: "../",
         }),
     ];
