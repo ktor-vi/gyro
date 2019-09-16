@@ -7,12 +7,14 @@
  */
 
 import * as React from "react";
+import Test from "./accord-component";
 
 const HelloWorld = () => (
     <div>
-        <h1>{"Hello, world!"}</h1>
+        <h1>{"Heyyyy??"}</h1>
         <hr />
         <small>{"becode/trouvkach"}</small>
+        <Test />
     </div>
 );
 
