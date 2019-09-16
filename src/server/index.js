@@ -27,7 +27,7 @@ app.get("/hello", (req, res) => {
 });
 app.get("/works", (req, res) => {
     console.log(`ℹ️  (${req.method.toUpperCase()}) ${req.url}`);
-    res.send(`Shit bro it works`);
+    res.send(`Shit bro it works, it's gonna be wild`);
 });
 app.get("/gyro", (req, res) => {
     console.log(`ℹ️  (${req.method.toUpperCase()}) ${req.url}`);
