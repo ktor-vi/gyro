@@ -9,7 +9,13 @@
 import express from "express";
 import path from "path";
 
+//fonctionne avec docker-compose up
 const {APP_PORT} = process.env;
+let port = APP_PORT;
+//devient undefined une fois déployer sur heroku
+if (typeof port === "undefined") {
+    port = process.env.PORT;
+}
 
 const app = express();
 
@@ -27,6 +33,4 @@ app.get("/gyro", (req, res) => {
     console.log(`ℹ️  (${req.method.toUpperCase()}) ${req.url}`);
     res.send(`Go play now`);
 });
-app.listen(APP_PORT, () =>
-    console.log(`🚀 Server is listening on port ${APP_PORT}.`),
-);
+app.listen(port, () => console.log(`🚀 Server is listening on port ${port}.`));
