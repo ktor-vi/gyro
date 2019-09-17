@@ -23,8 +23,11 @@
 
 `npm run build:client` - builds client-side using webpack 
 
-`npm run work:server` - runs client-side (still webpack)
+`npm run work:client` - runs client-side (still webpack)
 
+### C. Scripts
+
+`./gyro.sh` - will make it for you ;) (Note that he must be executable) 
 
 #### Post-scriptum
 
