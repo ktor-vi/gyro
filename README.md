@@ -23,7 +23,7 @@
 
 `npm run build:client` - builds client-side using webpack 
 
-`npm run work:server` - runs client-side (still webpack)
+`npm run work:client` - runs client-side (still webpack)
 
 
 #### Post-scriptum
