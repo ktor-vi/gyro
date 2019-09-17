@@ -25,6 +25,9 @@
 
 `npm run work:client` - runs client-side (still webpack)
 
+### C. Scripts
+
+`./gyro.sh` - will make it for you ;) (Note that he must be executable) 
 
 #### Post-scriptum
 
