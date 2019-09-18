@@ -8,8 +8,8 @@
 
 import * as React from "react";
 import ReactDOM from "react-dom";
-// import Accord from "./components/accord-component";
-
+// import Test from "./display-component";
 import HelloWorld from "./components/hello";
+// import Footer from "./footer-component";
 
 ReactDOM.render(<HelloWorld />, document.querySelector("#app"));

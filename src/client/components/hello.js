@@ -7,14 +7,14 @@
  */
 
 import * as React from "react";
-import Test from "./accord-component";
+import Test from "./data";
+// import Maps from "./map-component";
+import Footer from "./footer";
 
 const HelloWorld = () => (
     <div>
-        <h1>{"Heyyyy??"}</h1>
-        <hr />
-        <small>{"becode/trouvkach"}</small>
         <Test />
+        <Footer />
     </div>
 );
 
